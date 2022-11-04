@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+.first{
+    
+    
+    background-color: #f0f0f0;
+    width: 100%;
+    height:69px;
+    position:fixed;
+    z-index: 10000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 136px;
+}
+
+
+.logo{
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.9em;
+    color:#060d30
+}
+
+.navegator a{
+    
+    
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding-right: 22px;
+    color:#060d30
+}
+
+
+.navegator a:hover{
+    
+    color:#901cfc
+}
+
+.first-section{
+    padding-top:114px;
+    min-height: 897px;
+    background-image:url(8.webp);
+    background-attachment: fixed;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+
+.inner1{
+    
+    padding: 90px;
+    width: 75;
+
+}
+
+.inner1 h3 {
+    color: #1f60ab;
+    font-size: 7.4em;
+    font-weight: 500;
+    font-family: revert;
+}
+
+.inner1 h1{
+    color: #060d30;
+    font-size: 70px;
+    font-weight: 900;
+    font-family: revert;
+}
+
+.inner1 h2 {
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: revert;
+}
+
+
+.inner1 h4{
+    
+    background-color: #060d30;
+    border-radius: 26px;
+    width: 137px;
+    height: 54px;
+    text-align: center;
+    line-height: 47px;
+    display: inline-block;
+    padding-top: 3px;
+    margin-top: 25px;
+    color: white
+}
+
+.inner1 h4 a {
+    
+    color: white;
+    text-decoration: none;
+}
+
+.inner1  div a{
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+    padding: 8px;
+    
+}
+.second-section{
+  
+    height:48.1em
+}
+
+
+.second-section  .inner {
+    
+  margin-top: 60px;
+width:100%
+   
+}
+
+.second-section h2{
+    
+    text-align: center;
+    padding-top: 44px;
+    font-size: 70px;
+    font-weight: 900;
+    text-shadow: 1px 1px 11px black;
+    color: white;
+}
+
+.second-section .inner .one , .second-section .inner .two , .second-section .inner .three {
+    
+    float: left;
+    width: 32%;
+    height:500px;
+    background-color: white;
+    border-radius: 17px;
+    border-color: #060d30;
+    border-width: 5px;
+    border-style: solid;
+    margin-left: 20px;
+    transition-duration: 1.1s;
+    transition-timing-function: ease-in
+}
+
+.second-section .inner .one div , .second-section .inner .two div , .second-section .inner .three div {
+    
+    text-align: center;
+    font-size: 82px;
+    
+    
+}
+
+.second-section .inner .one div a , .second-section .inner .two div a , .second-section .inner .three div a{
+    
+    color:black;
+}
+
+.second-section .inner .one  h1 , .second-section .inner .two h1 , .second-section .inner .three h1 {
+    
+   text-align: center;
+    font-size: 39px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    color: #060d30;
+}
+
+.second-section .inner .one h3 , .second-section .inner .two h3 , .second-section .inner .three h3 {
+    
+    text-align: center;
+    padding: 42px 40px 0 40px;
+    color: #060d30;
+}
+
+.second-section .inner .one:hover{
+    
+    transform: scale(1.06);
+}
+
+.second-section .inner .two:hover{
+    
+    transform: scale(1.06);
+}
+
+.second-section .inner .three:hover{
+    
+    transform: scale(1.06);
+}
+ 
+
+
+section{
+    height:48.1em;
+}
+.dad{
+    width:100%;
+    height: 100%;
+    background-color: #060d30;
+    overflow: hidden
+        
+}
+
+section .dad h1{
+    
+ text-align: center;
+    padding-top: 44px;
+    padding-bottom: 30px;
+    font-size: 70px;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px white;
+    color: white;
+}
+
+
+
+section .dad .hima {
+    
+    width: 100%;
+    height:30%;
+    display: flex;
+    justify-content: center;
+}
+
+
+    
+     section .dad .hima{
+        
+        display: flex;
+        justify-content: center
+    }
+
+section .dad .hima .son1 {
+    
+  
+    width: 16%;
+    height:200px;
+    background-color:white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 10px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 20px;
+    
+}
+
+section .dad .hima .son1 .one {
+    
+    width: 100%;
+    height: 70%
+}
+
+section .dad .hima .son1 .one img {
+    
+    width: 100%;
+    height: 100%
+}
+
+
+section .dad .hima .son1{
+text-align: left;
+font-size: 11px;
+transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+section .dad .hima .son1:hover{
+    
+    transform: scale(1.1)
+}
+
+section .dad .hima .son1 h3{
+    padding-left: 5px
+} 
+
+section .dad .hima .son1 .two h2 {
+    
+    display: inline-block;
+    padding-top: 11px;
+    font-size: 11px;
+    padding-right: 45px;
+     padding-left: 5px;
+}
+
+section .dad .hima .son1 .two a {
+
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.end{
+    height: 500px;
+}
+
+.end .one {
+    
+    width: 72%;
+    height: 100%;
+    margin-left: 9em;
+}
+
+.end .one a{
+    
+    display: inline-block;
+    width: 39%; 
+    height:50%;
+    margin: 150px 0 0 30px;
+    text-decoration: none;
+     background-color: white;
+    border-radius: 17px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    color:#060d30;
+    box-shadow: 1px 1px 30px 2px #060d30;
+
+}
+
+.end .one a:hover{
+    
+    transform: scale(1.04)
+}
+
+.end .one .left {
+    
+    margin-left:190px
+    
+}
+
+.end .one a i{
+
+
+    font-size: 63px;
+    padding-left: 177px;
+    padding-top: 19px;
+}
+
+
+.end .one a h1 , .end .one a h3{
+    
+    text-align: center;
+    padding-top: 25px;
+     font-size:20px;
+}
+
+.end .one a h3{
+    
+    font-size:30px;
+}
+
+
+.end2{
+    
+    background-color: black;
+    height: 60px;
+}
+
+.end2 h2 {
+    
+    text-align: left;
+    font-size: 20px;
+    padding-top: 15px;
+    color: burlywood;
+
+}
+
+.end2 h2 span{
+    
+    color: white;
+    font-size:15px
+}
+
+
+
+/****************** media ***********************/
+
+@media(max-width:1023px){
+    
+    .first{
+        
+       padding-left: 7px;
+        
+    }
+    
+    .first .logo{
+        
+        padding-left:20px
+            
+    }
+    
+    .first .navegator {  
+        
+       margin-right: 39px;
+
+    }
+    
+    .first .navegator a {
+        
+        padding-right: 25px;
+        font-size: 10px
+    }
+    
+    
+    .first-section{
+          
+             min-height: 100px;
+            background-image: none;
+            padding-top: 89px;
+        background-color: #e8e8e8;
+}
+
+
+    
+  
+    .first-section .inner1{
+        
+        padding:22px;
+        text-align: center
+    
+    }
+    
+    .first-section .inner1 h3{
+        
+        font-size: 20px;
+        color:black
+    }
+    
+     .first-section .inner1 h1{
+        
+        font-size: 50px;
+        line-height: 46px;
+        padding: 10px 0;
+    }
+    
+     .first-section .inner1 h2{
+        
+        font-size: 20px;
+        color:black
+    }
+    
+    .first-section .inner1 div a{
+        
+        color:black
+            
+    }
+    
+    .second-section {
+        
+        height: 79.1em;
+        
+    }
+    
+    .second-section h2{
+        
+        font-size: 53px;
+    }
+    
+    
+    
+    .second-section .inner .one , .second-section .inner .two , .second-section .inner .three{
+        
+        width: 92%;
+        height: 21em;
+        margin-bottom: 13px;
+        overflow: hidden;
+
+    }
+    
+     .second-section .inner .one h3 , .second-section .inner .two h3 , .second-section .inner .three h3{
+         
+    
+    font-size: 10px;
+    padding-top: 10px;
+         
+  }
+    
+      section {
+          
+    height: 97em;
+          
+    }
+    
+    section .dad  h1{
+        
+        font-size: 45px;
+   
+    }
+    
+   
+    section .dad .hima {
+        
+    height: 43em;
+    width: 16em;
+    flex-direction: column;
+    margin-left: 4em;
+    }
+    
+    section .dad .hima .son1 {
+        
+    width: 100%;
+    margin: 10px;
+}
+    
+    .end{
+        
+        height: 35em;
+    }
+    
+    .end .one {
+    
+    width: 100%;
+    height: 100%;
+}
+
+    
+    
+    .end .one a{
+    
+    display: block;
+    width: 100%; 
+    height:50%;
+    margin: 0 0 10px 0;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 17px;
+    box-shadow: 1px 1px 30px 2px #060d30;
+
+}
+
+
+    
+    .end .one a{
+        
+    
+    width: 77%;
+    height: 39%;
+    margin-left: -6em;
+    margin-top: 2em;
+    
+    }
+    
+    
+    .end .one .left{
+        
+    margin-left: -6em;
+    margin-top: 5em;
+  }
+    
+    .end .one a i {
+        
+        padding: 10px 0 0 118px;
+    }
+    
+    .end .one a h3{
+        
+        font-size: 23px;
+    }
+    
+     .end .one .left h3{
+        
+        font-size: 30px;
+    }
+    
+    .end2 h2{
+        
+        font-size: 18px
+    }
+
+     .end2 h2 span{
+        
+        font-size: 10px
+    }
+}
